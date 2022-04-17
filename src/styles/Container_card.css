@@ -1,0 +1,16 @@
+.container-card{
+
+    padding: 10px;
+    border: 1px solid rgb(98, 95, 95);
+    box-shadow: 0px 0px 5px 1px rgb(218, 208, 208);
+   
+}
+.container-card > h2{
+    color: bisque;
+}
+.container-card > h5{
+    text-align:justify;
+}
+.container-location{
+    text-align: justify;
+}

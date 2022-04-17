@@ -1,0 +1,24 @@
+.search_container{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.search_container > input{
+    margin: 7px;
+    border: none;
+    color: aliceblue;
+    background-color: rgba(18, 17, 29, 0.548);
+    
+}
+
+.search_container > button{
+    
+    font-size: 19px;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(18, 17, 29, 0.548) ;
+    box-shadow: 1px 0px 5px #888888;
+}
