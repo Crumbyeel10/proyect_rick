@@ -13,15 +13,13 @@ const LocationContainer = () => {
 
 
     
-    const [location,setLocation] = useState (null)
+
     const [residentes,setResidentes] = useState([])
     const [searchValue,setSearchValue] = useState('Citadel of Ricks')
-    const [estado, setEstado] = useState(false)
 
     useEffect  ( () => {
         getLocation(searchValue)
           .then(res => {
-            setLocation(res.data.name)
             setResidentes(res.data.results[0].residents)
           })
           .catch(error => {

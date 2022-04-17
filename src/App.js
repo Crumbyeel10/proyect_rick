@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import './App.css';
-import Loading from './components/Loading';
 import LocationContainer from './components/LocationContainer';
 
 
