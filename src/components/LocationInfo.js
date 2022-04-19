@@ -22,7 +22,7 @@ const LocationInfo = ({location}) => {
             .catch(error => {
                 console.error(error)
             })
-    },[])
+    },[location])
 
 
     return(
